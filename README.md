@@ -7,4 +7,6 @@ gcc -o q q.c -lgmp && ./q
 ## Assignment 2:
 Written in sage: 
 In a sage environment run:
-> sage factor_quadratic.sage
+```
+sage factor_quadratic.sage
+```

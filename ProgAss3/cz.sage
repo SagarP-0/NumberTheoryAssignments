@@ -1,5 +1,6 @@
-#please check github for exection or see outputs in the readme section
-#github: https://github.com/SagarP-0/NumberTheoryAssignments
+# ROLL : CS26BTKMU11003 [SAGAR PARAJULI]
+# github: https://github.com/SagarP-0/NumberTheoryAssignments
+# please check github for exection or see outputs in the readme section
 # Cantor-Zassenhaus factorization over F_p: square-free check, DDF, EDF
 
 def powmod(a, e, m):

@@ -55,31 +55,6 @@ Stage 3: equal-degree factorization
      x^4 + 987011
 Final factorization:
   (x + 1) * (x^2 + 987012*x + 987012) * (x^3 + 987012*x + 987010) * (x^4 + 987011)
-(base) sagar@stoopid:~/Documents/NumberTheory/ProgAss3$ conda activate sage
-(sage) sagar@stoopid:~/Documents/NumberTheory/ProgAss3$ sage cz.sage 
-Enter the prime p: 987013 
-Enter the degree d: 10
-Enter the polynomial f: x^10 + 987010*x^8 + 987009*x^7 + 7*x^5 + 9*x^4 + 8*x^3 + 987009*x^2 + 986999*x + 987007
-Stage 1: square-free verification
-  gcd(f, f') = 1
-  square-free: True
-  passed to stage 2: x^10 + 987010*x^8 + 987009*x^7 + 7*x^5 + 9*x^4 + 8*x^3 + 987009*x^2 + 986999*x + 987007
-Stage 2: distinct-degree factorization
-  degree 1: x + 1
-  degree 2: x^2 + 987012*x + 987012
-  degree 3: x^3 + 987012*x + 987010
-  degree 4: x^4 + 987011
-Stage 3: equal-degree factorization
-  degree 1:
-     x + 1
-  degree 2:
-     x^2 + 987012*x + 987012
-  degree 3:
-     x^3 + 987012*x + 987010
-  degree 4:
-     x^4 + 987011
-Final factorization:
-  (x + 1) * (x^2 + 987012*x + 987012) * (x^3 + 987012*x + 987010) * (x^4 + 987011)
 ```
 For the test cases of assignment: 
 ```

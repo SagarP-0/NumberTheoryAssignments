@@ -56,9 +56,11 @@ Stage 3: equal-degree factorization
 Final factorization:
   (x + 1) * (x^2 + 987012*x + 987012) * (x^3 + 987012*x + 987010) * (x^4 + 987011)
 ```
-For the test cases of assignment: 
+For the test cases of assignment, call tests.sage: 
 ```
-(sage) sagar@stoopid:~/Documents/NumberTheory/ProgAss3$ sage tests.sage 
+(sage) sagar@stoopid:~/Documents/NumberTheory/ProgAss3$ sage tests.sage
+```
+```
 === Sample 1 ===
 Stage 1: square-free verification
   gcd(f, f') = 1

@@ -1,10 +1,25 @@
 # ROLL: CS26BTKMU11003 Number Theory Assignments
-## Assignment 1: 
+## Assignment 1: Extended Eculids
 Check output file and compile with gcc
 ```
 gcc -o q q.c -lgmp && ./q
 ```
-## Assignment 2:
+```
+Output displayed for GMPs inbuilt gcd function and UserDefined function(must be same):
+
+GMPS prebuilt function:
+x=-9,y=2,c=1
+
+Self defined function:
+x=-9,y=2,c=1
+
+GMPS prebuilt function:
+x=2,y=-1,c=21
+
+Self defined function:
+x=2,y=-1,c=21
+```
+## Assignment 2: Quadratic Equation in Zp
 Written in sage: 
 In a sage environment run:
 ```
